@@ -32,7 +32,37 @@ header {
     color: orange;
   }
 
-/* main content of the lage */
+/* main content of the page */
+
+/* About section */
+#about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+#about img{
+    margin: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 150px;
+}  
+
+#about p{
+    margin:15px;
+}
+
+/* Works section */
+#header_works{
+    background-color: teal;
+    padding: 20px;
+    color: lightgray;;
+    font-weight: bold;
+    font-size: 150%;
+}
 
 #works{
     display:flex;
@@ -40,6 +70,15 @@ header {
     align-items: center;
     flex-wrap: wrap;
     background-color: whitesmoke;
+}
+
+#works img {
+    border-radius: 30px;
+    border: 3px double gray;
+}
+
+#works img:hover{
+    border: 3px solid darkcyan;
 }
 
 #first_work{
@@ -62,13 +101,11 @@ header {
 
 /* image elements in the main content */
 
-img {
-    border-radius: 30px;
-    border: 3px double gray;
-}
-
-img:hover{
-    border: 3px solid gray;
+#first_work img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 30%;
+    min-height: 30%;
 }
 
 #other_works img{
@@ -77,5 +114,6 @@ img:hover{
     min-width: 20%;
     min-height: 20%;
 }
+
 
 

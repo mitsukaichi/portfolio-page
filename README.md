@@ -12,3 +12,9 @@
 
 1. draft the page design in large screen and smaller screen on paper
 2. create rese.css file referring to the [sample found online](https://meyerweb.com/eric/tools/css/reset/)
+
+
+## Resources referred to 
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Auto Resize Image in CSS FlexBox Layout and keeping Aspect Ratio? - Stack Overflow](https://stackoverflow.com/questions/21103622/auto-resize-image-in-css-flexbox-layout-and-keeping-aspect-ratio)
