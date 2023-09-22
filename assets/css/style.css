@@ -2,6 +2,7 @@
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+/* header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -10,11 +11,11 @@ header {
     color: #fff;
     padding: 25px; 
   }
-  
+
   h1 {
     font-size: 200%;
   }
-
+/* nagivatin links styling */
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -26,7 +27,55 @@ header {
     text-decoration: none;
     font-weight: bold;
   }
-
+/* nagivatin link pseudo-element */
   nav a:hover {
     color: orange;
   }
+
+/* main content of the lage */
+
+#works{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+#first_work{
+    padding: 20px;
+    flex: 2 2 0;
+    justify-content: center;
+    text-align: center;
+}
+
+#other_works{
+    padding: 20px;
+    flex: 1 1 0;
+    justify-content: center;
+    text-align: center;
+}
+
+#other_works article{
+    padding: 10px;
+}
+
+/* image elements in the main content */
+
+img {
+    border-radius: 30px;
+    border: 3px double gray;
+}
+
+img:hover{
+    border: 3px solid gray;
+}
+
+#other_works img{
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+
