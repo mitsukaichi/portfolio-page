@@ -15,26 +15,22 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#works">Works</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="about">
-        <article>
-            <img src="assets/images/profile_photo.png" alt="Profile photo of Minami">
+        <article id="profile_image">
+            <img src="assets/images/profile_photo.png" alt="Profile photo of Minami" width="300">
         </article>
-        <article>
+        <article id= "profile_text">
             <p>Minami I</p>
-            <p>2023 September cohort of <a href = "https://bootcamp.berkeley.edu/coding/" taregt="_blank">UC Berkeley Full-time Coding Bootcamp Full-stuck Web Developer course.</a><br>
-               Majored in Liberal Arts in Collage in Japan, has worked for a tech compnany in Japan and in the US.     
+            <p>2023 September cohort of <a href = "https://bootcamp.berkeley.edu/coding/" target="_blank">UC Berkeley Full-time Coding 
+               Bootcamp Full-stuck Web Developer course.</a> <br> Majored in Liberal Arts in Collage in Japan, has worked for a tech compnany 
+               in Japan and in the US.     
             </p>
-            <ul>
-                <li>Email: mitukaichi at gmail dot com</li>
-                <li><a href = "">Linkedin</a></li>
-                <li><a href = "">GitHub</a></li>
-            </ul>
         </article>    
     </section>    
     <section>
@@ -46,6 +42,8 @@
                         <img src="assets/images/first_work.png" alt="Webpage with a form and a cat photo">
                     </a>
                     <p>First work - webpage with a contact form</p> 
+                    <p class="work_description">Created a simple HTML page with a dummy contact form. <br>
+                    Click to see the actual page</p>
                 </article>
             </section>
             <section id="other_works">
@@ -53,28 +51,31 @@
                     <a href = "https://mitsukaichi.github.io/horiseon-refactoring/" target="_blank">
                         <img src="assets/images/second_work.png" alt="Online marketing company's webpage">
                     </a>
-                    <p>Second work - refactor the webpage to meet the accessbility standard</p>
+                    <p>Second work - refactor a webpage to meet the accessbility standard</p>
+                    <p class="work_description">Refactored an existing webpage to convert the semantic HTML to meet the accessbility standard.
+                        <br>Click to see the actual page
+                    </p>
                 </article>
                 <article>
-                    <a href = "https://mitsukaichi.github.io/site_with_form/" target="_blank">
-                        <img src="assets/images/first_work.png" alt="Webpage with a form and a cat photo">
-                    </a>
-                    <p>First work - webpage with a contact form</p>
+                    <img src="assets/images/placeholder_image.png" alt="A placeholder image with a text 'coming soon'">
+                    <p>Third work - coming soon</p>
                 </article>
             </section>
         </section>
     </section>
-    <aside>
-      <h2>Sign up to Learn More!</h2>
-      <form>
-        <input type="text" placeholder="E-mail address" />
-        <button>Submit</button>
-      </form>
-    </aside>
+    <section>
+        <h2 id="contact">Contact</h2>
+        <ul id="contact_list">
+            <li>Email: mitukaichi at gmail dot com</li>
+            <li><a href = "https://www.linkedin.com/in/minami-itsukaichi/" target="_blank">Linkedin</a></li>
+            <li><a href = "https://github.com/mitsukaichi" target="_blank">GitHub</a></li>
+            <li><a href = "https://www.facebook.com/minami.itsukaichi" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
   </main>
 
   <footer>
-    <span>Last updated: 2023/09/21</span>
+    <span>Last updated: 2023/09/22</span>
   </footer>
 </body>
 

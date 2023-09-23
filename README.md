@@ -18,3 +18,5 @@
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Auto Resize Image in CSS FlexBox Layout and keeping Aspect Ratio? - Stack Overflow](https://stackoverflow.com/questions/21103622/auto-resize-image-in-css-flexbox-layout-and-keeping-aspect-ratio)
+- [overflow-wrap - CSS Tricks](https://css-tricks.com/almanac/properties/o/overflow-wrap/)
+- [CSS filters - W3 school](https://www.w3schools.com/howto/howto_css_image_effects.asp)
