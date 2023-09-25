@@ -4,7 +4,7 @@
 }
 
 :root{
-    --fontweight: 300;
+    --fontweight: 300; /* default font weight for text in paragraphs */
 }
 
 /* header styling */
@@ -79,11 +79,11 @@ section h2{
 }
 
 /* image elements in the works section */
-
+/* make screenshots of works grayed out until mouse over */
 #works img {
     border-radius: 30px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale 60%; /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
 }
 
 #first_work img{
