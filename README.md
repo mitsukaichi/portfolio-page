@@ -14,7 +14,7 @@ This project was done as the second assignment of a codind bootcamp as part of t
 
 Visit [the published version of this page on GitHub page](https://mitsukaichi.github.io/portfolio-page/)
 
-[Screenshot](/portfolio-page/assets/images/portfolio_screenshot.png)
+[Screenshot](https://raw.githubusercontent.com/mitsukaichi/portfolio-page/main/assets/images/portfolio_screenshot.png)
 
 ## How I approached this challenge 
 
