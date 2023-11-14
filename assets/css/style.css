@@ -72,7 +72,7 @@ section h2{
 
 #works{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     font-weight: var(--fontweight);
@@ -82,53 +82,27 @@ section h2{
 /* make screenshots of works grayed out until mouse over */
 #works img {
     border-radius: 30px;
-    -webkit-filter: grayscale 60%; /* Safari 6.0 - 9.0 */
-    filter: grayscale(60%);
+    
 }
 
-#first_work img{
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 30%;
-    min-height: 30%;
+.github-logo{
+    width: 1rem;
 }
 
-#other_works img{
-    max-width: 60%;
-    max-height: 60%;
+.work-image{
+    margin: 20px;
+    max-width: 450px;
     min-width: 20%;
     min-height: 20%;
-}
-
-#works img:hover{
-    -webkit-filter: none; /* Safari 6.0 - 9.0 */
-    filter: none;
 }
 
 /* non-image elements in the works section */
 
 .work_description{
     font-size: 80%;
-    padding: 5px 30px;
-}
-
-#first_work{
-    padding: 20px;
-    flex: 2 2 0;
-    justify-content: center;
-    text-align: center;
-}
-
-#other_works{
-    padding: 20px;
-    flex: 1 1 0;
-    justify-content: center;
-    text-align: center;
-}
-
-#other_works article{
     padding: 10px;
 }
+
 
 /* Contact section */
 
